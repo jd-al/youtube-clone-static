@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube.com</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="yt-styles/general.css" />
+    <link rel="stylesheet" href="yt-styles/header.css" />
+    <link rel="stylesheet" href="yt-styles/sidebar.css" />
+    <link rel="stylesheet" href="yt-styles/video.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" />
+        <img class="youtube-logo" src="icons/youtube-logo.svg" />
+      </div>
+
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <div class="upload-icon-conainer">
+          <img class="upload-icon" src="icons/upload.svg" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg" />
+          <div class="tooltip">YouTube Apps</div>
+        </div>
+        <div class="notification-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg" />
+          <div class="notification-count">4</div>
+          <div class="tooltip">YouTube Apps</div>
+        </div>
+        <img class="current-user-picture" src="channel-pics/my-channel.jpg" />
+      </div>
+    </header>
+
+    <!-- Left Sidebar -->
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg" />
+        <div>Library</div>
+      </div>
+    </nav>
+    <main>
+      <section class="video-grid">
+        <!-- Videos section -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/YqIMRzq482M"
+              target="_blank"
+              class="video-title-link"
+            >
+              <img class="thumbnail" src="thumbnails/aya h bulawa.webp" />
+            </a>
+            <div class="video-time">23:54</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a
+                href="https://www.youtube.com/@QadriZiaiSound"
+                target="_blank"
+                class="channel-picture-link"
+              >
+                <img class="profile-picture" src="channel-pics/qadriZA.jpg" />
+              </a>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/YqIMRzq482M"
+                target="_blank"
+                class="video-title-link"
+              >
+                <p class="video-title">
+                  Aya Hai Bulawa By Owais Raza Qadri Mahfil e Naat IN Wapda Town
+                  Lahore
+                </p>
+              </a>
+              <p class="video-author">Qadri Ziai Sound</p>
+              <p class="video-stats">5.3M views &#183; 5 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/WXsD0ZgxjRw"
+              target="_blank"
+              class="video-title-link"
+            >
+              <img class="thumbnail" src="thumbnails/freecode-api.webp" />
+            </a>
+            <div class="video-time">3:07:06</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a
+                href="https://www.youtube.com/@freecodecamp"
+                target="_blank"
+                class="channel-picture-link"
+              >
+                <img
+                  class="profile-picture"
+                  src="channel-pics/freecodecamp.jpg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/WXsD0ZgxjRw"
+                target="_blank"
+                class="video-title-link"
+              >
+                <p class="video-title">
+                  APIs for Beginners 2023 - How to use an API (Full Course /
+                  Tutorial)
+                </p>
+              </a>
+              <p class="video-author">freeCodeCamp.org</p>
+              <p class="video-stats">625K views &#183; 3 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/mqUN4N2q4qY"
+              target="_blank"
+              class="video-title-link"
+            >
+              <img class="thumbnail" src="thumbnails/cwa.webp" />
+            </a>
+            <div class="video-time">4:13:20</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a
+                href="https://www.youtube.com/@codewithantonio"
+                target="_blank"
+                class="channel-picture-link"
+              >
+                <img
+                  class="profile-picture"
+                  src="channel-pics/code-with-Antonio.jpg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/mqUN4N2q4qY"
+                target="_blank"
+                class="video-title-link"
+              >
+                <p class="video-title">
+                  Full Stack Netflix Clone in React, Tailwind CSS, Next.JS,
+                  Prisma, MongoDB, NextAuth & Vercel (2023)
+                </p>
+              </a>
+              <p class="video-author">Code With Antonio</p>
+              <p class="video-stats">373K views &#183; 3 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/ekrWoNJjUCs"
+              target="_blank"
+              class="video-title-link"
+            >
+              <img class="thumbnail" src="thumbnails/chromaTech.webp" />
+            </a>
+            <div class="video-time">7:59</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a
+                href="https://www.youtube.com/@ChromaTechOfficial"
+                target="_blank"
+                class="channel-picture-link"
+              >
+                <img class="profile-picture" src="channel-pics/chroma.jpg" />
+              </a>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/ekrWoNJjUCs"
+                target="_blank"
+                class="video-title-link"
+              >
+                <p class="video-title">
+                  Unlock Bootloader of Any Xiaomi Device Instantly | UNLOCK IN
+                  ONE CLICK | NO ERROR 🔥🔥🔥
+                </p>
+              </a>
+              <p class="video-author">Chroma Tech</p>
+              <p class="video-stats">71K views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/d_4Z9NIPASA"
+              target="_blank"
+              class="video-title-link"
+            >
+              <img class="thumbnail" src="thumbnails/ks.webp" />
+            </a>
+            <div class="video-time">6:16</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a
+                href="https://www.youtube.com/@KonamiStreet"
+                target="_blank"
+                class="channel-picture-link"
+              >
+                <img
+                  class="profile-picture"
+                  src="channel-pics/konami_street.jpg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/d_4Z9NIPASA"
+                target="_blank"
+                class="video-title-link"
+              >
+                <p class="video-title">TOUGH DEFENSES BEING BROKEN</p>
+              </a>
+              <p class="video-author">Konami Street</p>
+              <p class="video-stats">71K views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/xo1sW5HD7os"
+              target="_blank"
+              class="video-title-link"
+            >
+              <img class="thumbnail" src="thumbnails/web-dev-cody.webp" />
+            </a>
+            <div class="video-time">44:34</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a
+                href="https://www.youtube.com/@WebDevCody"
+                target="_blank"
+                class="channel-picture-link"
+              >
+                <img class="profile-picture" src="channel-pics/wdc.jpg" />
+              </a>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/xo1sW5HD7os"
+                target="_blank"
+                class="video-title-link"
+              >
+                <p class="video-title">
+                  A subscriber was asked these interview questions for a junior
+                  role
+                </p>
+              </a>
+              <p class="video-author">Web Dev Cody</p>
+              <p class="video-stats">260K views &#183; 2 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/_SmvHKkQZVk"
+              target="_blank"
+              class="video-title-link"
+            >
+              <img class="thumbnail" src="thumbnails/xavi-purist.webp" />
+            </a>
+            <div class="video-time">10:50</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a
+                href="https://www.youtube.com/@thepurist_"
+                target="_blank"
+                class="channel-picture-link"
+              >
+                <img class="profile-picture" src="channel-pics/purist.jpg" />
+              </a>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/_SmvHKkQZVk"
+                target="_blank"
+                class="video-title-link"
+              >
+                <p class="video-title">
+                  Why Xavi’s new tactics are PERFECT for Barcelona | Tactical
+                  Analysis
+                </p>
+              </a>
+              <p class="video-author">The Purist Football</p>
+              <p class="video-stats">78K views &#183; 4 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/P1bAPZg5uaE"
+              target="_blank"
+              class="video-title-link"
+            >
+              <img class="thumbnail" src="thumbnails/stack-aditya.webp" />
+            </a>
+            <div class="video-time">16:09</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a
+                href="https://www.youtube.com/@TheAdityaVerma"
+                target="_blank"
+                class="channel-picture-link"
+              >
+                <img class="profile-picture" src="channel-pics/aditya.jpg" />
+              </a>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/P1bAPZg5uaE"
+                target="_blank"
+                class="video-title-link"
+              >
+                <p class="video-title">
+                  1 Stack Introduction And Identification
+                </p>
+              </a>
+              <p class="video-author">Aditya Verma</p>
+              <p class="video-stats">295K views &#183; 3 years ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
